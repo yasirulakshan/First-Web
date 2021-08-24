@@ -1,0 +1,34 @@
+body {
+    background-color: #171717;
+}
+
+
+/**HEADER**/
+
+a #header_text {
+    color: white;
+    padding: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 25px;
+    font-size: medium;
+    transition: 0.2s;
+}
+
+#header_text:hover {
+    font-size: larger;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.rectangle-header {
+    border-radius: 10px;
+    height: 25px;
+    width: 3px;
+    background-color: white;
+}
+
+.rectangle-container {
+    padding: 12px;
+    padding-top: 25px;
+}
