@@ -41,11 +41,28 @@ body {
 /*LOGO*/
 
 #logo {
-    padding: 20px;
+    padding: 2%;
     padding-right: 85px;
     transition: 1s
 }
 
 #logo:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
+}
+
+
+/*About*/
+
+#about {
+    margin-top: 10%;
+    color: white;
+    transition: 200ms;
+    border: 10px;
+    border-color: antiquewhite;
+    border-style: solid;
+}
+
+#about:hover {
+    color: aqua;
+    font-size: large;
 }
